@@ -1,0 +1,3 @@
+claude mcp add --transport stdio \
+  --env PYTHONPATH=/Applications/Hive.app/Contents/Resources/hive-backend/src \
+  hive -- /Users/YOU/.hive-mcp-venv/bin/python -m hive mcp

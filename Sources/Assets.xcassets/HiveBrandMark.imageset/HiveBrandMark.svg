@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="hive-title hive-description">
+  <title id="hive-title">Hive</title>
+  <desc id="hive-description">Seven dimensional golden hexagonal cells arranged as a honeycomb around a central spark.</desc>
+  <defs>
+    <g id="Prism">
+      <path d="M-39.84 23 L0 46 L0 58 L-39.84 35 Z"/>
+      <path d="M-39.84 23 L0 46 L0 58 L-39.84 35 Z" fill="#000" fill-opacity="0.28" stroke="none"/>
+      <path d="M0 46 L39.84 23 L39.84 35 L0 58 Z"/>
+      <path d="M0 46 L39.84 23 L39.84 35 L0 58 Z" fill="#000" fill-opacity="0.45" stroke="none"/>
+      <path d="M0 -46 L39.84 -23 L39.84 23 L0 46 L-39.84 23 L-39.84 -23 Z"/>
+      <path d="M-36.65 21.2 L-36.65 -21.2 L0 -42.3 L36.65 -21.2" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="3"/>
+    </g>
+  </defs>
+  <rect width="400" height="400" rx="90" fill="#15110C"/>
+  <g stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <use href="#Prism" x="157" y="109.5" fill="#F7A81B" stroke="#F7A81B"/>
+    <use href="#Prism" x="243" y="109.5" fill="#EE9411" stroke="#EE9411"/>
+    <use href="#Prism" x="114" y="184" fill="#EE9411" stroke="#EE9411"/>
+    <use href="#Prism" x="200" y="184" fill="#FFC832" stroke="#FFC832"/>
+    <use href="#Prism" x="286" y="184" fill="#F7A81B" stroke="#F7A81B"/>
+    <use href="#Prism" x="157" y="258.5" fill="#F7A81B" stroke="#F7A81B"/>
+    <use href="#Prism" x="243" y="258.5" fill="#EE9411" stroke="#EE9411"/>
+  </g>
+  <path d="M200 167 Q202 182 217 184 Q202 186 200 201 Q198 186 183 184 Q198 182 200 167 Z" fill="#3A2208"/>
+</svg>

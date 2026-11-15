@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hive-backend"
+version = "0.1.0"
+description = "Backend and MCP server for Hive: a shared workspace for independent AI agents."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+# The official MCP SDK. 1.x only: the adapter does not start with SDK 2.x.
+mcp = ["mcp>=1.2,<2"]
+
+[project.scripts]
+hive = "hive.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["Resources/hive-backend/src"]
+
+[tool.setuptools.package-data]
+"hive.db" = ["migrations/*.sql"]

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "hive": {
+      "command": "/usr/bin/env",
+      "args": [
+        "PYTHONPATH=/Applications/Hive.app/Contents/Resources/hive-backend/src",
+        "/Users/YOU/.hive-mcp-venv/bin/python",
+        "-m", "hive", "mcp"
+      ]
+    }
+  }
+}

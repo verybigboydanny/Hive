@@ -1,0 +1,26 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 77;
+  objects = {
+    A10000000000000000000001 = {isa = PBXBuildFile; fileRef = A10000000000000000000002; };
+    A10000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = folder; path = "Resources/hive-backend"; sourceTree = "<group>"; };
+    A10000000000000000000003 = {isa = PBXFileSystemSynchronizedRootGroup; path = Sources; sourceTree = "<group>"; };
+    A10000000000000000000004 = {isa = PBXGroup; children = (A10000000000000000000003, A10000000000000000000002, A10000000000000000000008,); sourceTree = "<group>"; };
+    A10000000000000000000005 = {isa = PBXNativeTarget; buildConfigurationList = A1000000000000000000000D; buildPhases = (A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000C,); buildRules = (); dependencies = (); fileSystemSynchronizedGroups = (A10000000000000000000003,); name = Hive; productName = Hive; productReference = A10000000000000000000006; productType = "com.apple.product-type.application"; };
+    A10000000000000000000006 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    A10000000000000000000007 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2720;}; buildConfigurationList = A1000000000000000000000E; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; mainGroup = A10000000000000000000004; productRefGroup = A10000000000000000000008; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000005,); };
+    A10000000000000000000008 = {isa = PBXGroup; children = (A10000000000000000000006,); name = Products; sourceTree = "<group>"; };
+    A1000000000000000000000A = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+    A1000000000000000000000B = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+    A1000000000000000000000C = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001,); runOnlyForDeploymentPostprocessing = 0; };
+    A1000000000000000000000D = {isa = XCConfigurationList; buildConfigurations = (A1000000000000000000000F, A10000000000000000000010,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    A1000000000000000000000E = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000011, A10000000000000000000012,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    A1000000000000000000000F = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Hive; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools"; MACOSX_DEPLOYMENT_TARGET = 15.0; PRODUCT_BUNDLE_IDENTIFIER = com.hive.app; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = macosx; SWIFT_VERSION = 6.0;}; name = Debug; };
+    A10000000000000000000010 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Hive; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools"; MACOSX_DEPLOYMENT_TARGET = 15.0; PRODUCT_BUNDLE_IDENTIFIER = com.hive.app; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = macosx; SWIFT_VERSION = 6.0;}; name = Release; };
+    A10000000000000000000011 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 6.0;}; name = Debug; };
+    A10000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 6.0;}; name = Release; };
+  };
+  rootObject = A10000000000000000000007;
+}
